@@ -66,4 +66,14 @@ mod tests {
         let logs = get_logs();
         assert_eq!(logs[0], "Hello World!");
     }
+
+    #[test]
+    fn alice_name() {
+        let context = get_context(str_to_account("alice"));
+        testing_env!(context.build());
+        let mut contract = HelloWorldContract::default();
+        contract.hello("Alice".to_string());
+        let logs = get_logs();
+        assert_eq!(logs[0], "Hello Alice!");
+    }
 }
