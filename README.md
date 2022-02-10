@@ -22,7 +22,7 @@ Use the following commands to build, deploy and call the contract.
    `RUSTFLAGS='-C link-arg=-s' cargo build --target wasm32-unknown-unknown --release` or `cargo build --target wasm32-unknown-unknown --release`
 4. Log in to testnet account `near login`
 5. `ID=your.id` > `echo $ID`
-6. Create a sub-account to deploy the new smart contract. This is because one account can only have one contract. Use `near deploy --wasmFile target/wasm32-unknown-unknown/release/near_hello_world.wasm --accountId helloworld.$ID` to deploy the contact to the network on the sub-account.
+6. Create a sub-account to deploy the new smart contract. This is because one account can only have one contract (read [this](https://www.near-sdk.io/upgrading/prototyping)). Use `near deploy --wasmFile target/wasm32-unknown-unknown/release/near_hello_world.wasm --accountId helloworld.$ID` to deploy the contact to the network on the sub-account.
 7. Call the method of the contact `near call helloworld.$ID hello '{"name": "Bob"}' --accountId helloworld.$ID`.
 
 ```shell
