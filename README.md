@@ -1,21 +1,25 @@
-# Rust Smart Contract Template
+# Near Hello World
 
-## Getting started
+This is a simple Hello World smart contract. As explained by the [exercice instruction](https://nearvember.near.org/challenge-2-hello-world) : "When we call the contract, it should take a {name} parameter and return "Hello {name}!"
 
-To get started with this template:
+> This project was kickstarted using [this official NEAR template](https://github.com/near-examples/rust-template).
 
-1. Click the "Use this template" button to create a new repo based on this template
-2. Update line 2 of `Cargo.toml` with your project name
-3. Update line 4 of `Cargo.toml` with your project author names
-4. Set up the [prerequisites](https://github.com/near/near-sdk-rs#pre-requisites)
-5. Begin writing your smart contract in `src/lib.rs`
-6. Test the contract 
+### Useful links
 
-    `cargo test -- --nocapture`
+[Building a Smart Contract in Rust](https://docs.near.org/docs/develop/contracts/rust/intro)
 
-8. Build the contract
 
-    `RUSTFLAGS='-C link-arg=-s' cargo build --target wasm32-unknown-unknown --release`
+## Notes
+
+1. The smart contract is in `src/lib.rs`
+2. Test the contract
+
+   `cargo test -- --nocapture` or run `./test.sh`
+3. Build the contract
+
+   `RUSTFLAGS='-C link-arg=-s' cargo build --target wasm32-unknown-unknown --release` or `cargo build --target wasm32-unknown-unknown --release`
+4. Log in to testnet account `near login`
+5. `ID=your.id` > `echo $ID` to check, > `near deploy --wasmFile target/wasm32-unknown-unknown/release/near_hello_world.wasm --accountId $ID`
 
 **Get more info at:**
 
