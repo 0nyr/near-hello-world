@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Hello World NEAR contract</title>
+    <meta name="description" content="A Hello World contract using NEAR">
+    <meta name="keywords" content="NEAR contract hello-world">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Hello World Contract</h1>
+
+    <button id="sign-in" class="signed-out" style="display: none">
+        Sign in with NEAR wallet
+    </button>
+    <button id="contract" class="signed-in" style="display: none">
+        Call Hello World contract
+    </button>
+
+    <input type="Your name" id="name" value="Bobby"><br>
+    <p id="result">### Contract output here ###</p>
+
+    <footer>
+    <p class="signed-in" style="display: none">
+        Signed in as <a id="account-id" href="https://wallet.testnet.near.org/profile" target="_blank"></a>
+        • <a href="#signout" id="sign-out">sign out</a>
+    </p>
+    <p>Author: Onyr (Florian Rascoussier) - florian.rascoussier@insa-lyon.fr </p>
+    <p>Project repo: https://github.com/0nyr/near-hello-world</p>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

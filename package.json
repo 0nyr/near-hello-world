@@ -1,0 +1,32 @@
+{
+  "name": "near-hello-world",
+  "version": "1.0.0",
+  "description": "A simple Hello World contract and frontend using NEAR blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0nyr/near-hello-world.git"
+  },
+  "keywords": [
+    "NEAR",
+    "hello-world",
+    "frontend",
+    "rust"
+  ],
+  "authors": [
+    "Onyr (Florian Rascoussier) <florian.rascoussier@insa-lyon.fr>",
+    "Anicet Nougaret <anicet.nougaret@insa-lyon.fr>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0nyr/near-hello-world/issues"
+  },
+  "homepage": "https://github.com/0nyr/near-hello-world#readme",
+  "dependencies": {
+    "near-api-js": "^0.44.2",
+    "regenerator-runtime": "^0.13.9"
+  }
+}

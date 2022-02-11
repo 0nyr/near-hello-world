@@ -1,0 +1,18 @@
+/home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/deps/typenum-4e5b1e883dfb56e7.rmeta: /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/lib.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/bit.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/int.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/marker_traits.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/operator_aliases.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/private.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/type_operators.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/uint.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/array.rs /home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/build/typenum-fe63bced2d08f982/out/op.rs /home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/build/typenum-fe63bced2d08f982/out/consts.rs
+
+/home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/deps/typenum-4e5b1e883dfb56e7.d: /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/lib.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/bit.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/int.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/marker_traits.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/operator_aliases.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/private.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/type_operators.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/uint.rs /home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/array.rs /home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/build/typenum-fe63bced2d08f982/out/op.rs /home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/build/typenum-fe63bced2d08f982/out/consts.rs
+
+/home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/lib.rs:
+/home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/bit.rs:
+/home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/int.rs:
+/home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/marker_traits.rs:
+/home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/operator_aliases.rs:
+/home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/private.rs:
+/home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/type_operators.rs:
+/home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/uint.rs:
+/home/onyr/.cargo/registry/src/github.com-1ecc6299db9ec823/typenum-1.13.0/src/array.rs:
+/home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/build/typenum-fe63bced2d08f982/out/op.rs:
+/home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/build/typenum-fe63bced2d08f982/out/consts.rs:
+
+# env-dep:TYPENUM_BUILD_CONSTS=/home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/build/typenum-fe63bced2d08f982/out/consts.rs
+# env-dep:TYPENUM_BUILD_OP=/home/onyr/Documents/code/near_hackton/near-hello-world/target/rls/debug/build/typenum-fe63bced2d08f982/out/op.rs

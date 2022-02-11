@@ -1,4 +1,4 @@
-# Near Hello World
+# Near Hello World contract
 
 This is a simple Hello World smart contract. As explained by the [exercice instruction](https://nearvember.near.org/challenge-2-hello-world) : "When we call the contract, it should take a {name} parameter and return "Hello {name}!"
 
@@ -6,45 +6,13 @@ This is a simple Hello World smart contract. As explained by the [exercice instr
 
 ### Useful links
 
-[Building a Smart Contract in Rust](https://docs.near.org/docs/develop/contracts/rust/intro)
+[NEAR official wallet example](https://github.com/near-examples/wallet-example) ⭐️
 
+[NEAR Front-End quick reference](https://docs.near.org/docs/api/naj-quick-reference)
 
-## Notes and commands
+### Commands
 
-Use the following commands to build, deploy and call the contract.
-
-1. The smart contract is in `src/lib.rs`
-2. Test the contract
-
-   `cargo test -- --nocapture` or run `./test.sh`
-3. Build the contract
-
-   `RUSTFLAGS='-C link-arg=-s' cargo build --target wasm32-unknown-unknown --release` or `cargo build --target wasm32-unknown-unknown --release`
-4. Log in to testnet account `near login`
-5. `ID=your.id` > `echo $ID`
-6. Create a sub-account to deploy the new smart contract. This is because one account can only have one contract (read [StackOverflow](https://stackoverflow.com/questions/70455438/not-all-bytes-read-common-solutions) and [this](https://www.near-sdk.io/upgrading/prototyping)). Use `near deploy --wasmFile target/wasm32-unknown-unknown/release/near_hello_world.wasm --accountId helloworld.$ID` to deploy the contact to the network on the sub-account.
-7. Call the method of the contact `near call helloworld.$ID hello '{"name": "Bob"}' --accountId helloworld.$ID`.
-
-```shell
-(base)  ❮ onyr ★  kenzae❯ ❮ near-hello-world❯❯ near deploy --wasmFile target/wasm32-unknown-unknown/release/near_hello_world.wasm --accountId helloworld.$ID
-Starting deployment. Account id: helloworld.onyr.testnet, node: https://rpc.testnet.near.org, helper: https://helper.testnet.near.org, file: target/wasm32-unknown-unknown/release/near_hello_world.wasm
-Transaction Id 26Ma9ckZLf1k1YkGc2TgLtXdS1pFnwk75ngVM5e5eN4i
-To see the transaction in the transaction explorer, please open this url in your browser
-https://explorer.testnet.near.org/transactions/26Ma9ckZLf1k1YkGc2TgLtXdS1pFnwk75ngVM5e5eN4i
-Done deploying to helloworld.onyr.testnet
-
-(base)  ❮ onyr ★  kenzae❯ ❮ near-hello-world❯❯ near call helloworld.$ID hello '{"name": "Bob"}' --accountId helloworld.$ID
-Scheduling a call: helloworld.onyr.testnet.hello({"name": "Bob"})
-Doing account.functionCall()
-Receipt: E7cBffRLKtzDmjCkTBSaBdUKyKPtwXiuKsbyXC8NLpe8
-        Log [helloworld.onyr.testnet]: Hello Bob!
-Transaction Id EgJdNSgoynvfKTY1QbFKJQFTveZjofWGiXiVY1ufomfk
-To see the transaction in the transaction explorer, please open this url in your browser
-https://explorer.testnet.near.org/transactions/EgJdNSgoynvfKTY1QbFKJQFTveZjofWGiXiVY1ufomfk
-''
-```
-
-**Get more info at:**
-
-* [Rust Smart Contract Quick Start](https://docs.near.org/docs/develop/contracts/rust/intro)
-* [Rust SDK Book](https://www.near-sdk.io/)
+1. First, read the README and deploy the contract.
+2. Modify `CONTRACT_NAME` inside `src/main.js` with the sub-account where you deployed the contract (this is the contract name).
+3. Download the library `npm i near-api-js` and `npm install -g parcel-bundler` for bundling code.
+4. Run project `yarn start`. Go to the browser and enjoy the app.
