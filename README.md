@@ -18,5 +18,5 @@ This is a simple Hello World smart contract. As explained by the [exercice instr
 
 1. First, read the README inside `contract/` and deploy the contract.
 2. Modify `CONTRACT_NAME` inside `src/main.js` with the sub-account where you deployed the contract (this is the contract name).
-3. Download the library `npm i near-api-js` and `npm install -g parcel-bundler` for bundling code.
+3. Download the library `npm i near-api-js` and `yarn install parcel` for bundling code.
 4. Run project `yarn start`. Go to the browser and enjoy the app.
