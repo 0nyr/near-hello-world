@@ -1,0 +1,20 @@
+{
+  "name": "near-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:contract": "cd contract && ./build.sh",
+    "deploy:contract": "cd contract && ./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0nyr/near-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0nyr/near-hello-world/issues"
+  },
+  "homepage": "https://github.com/0nyr/near-hello-world#readme"
+}
