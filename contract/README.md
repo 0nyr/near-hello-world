@@ -47,3 +47,7 @@ https://explorer.testnet.near.org/transactions/EgJdNSgoynvfKTY1QbFKJQFTveZjofWGi
 
 * [Rust Smart Contract Quick Start](https://docs.near.org/docs/develop/contracts/rust/intro)
 * [Rust SDK Book](https://www.near-sdk.io/)
+
+## Examples
+
+[test Rust file for already deployed contracts](https://github.com/oysterpack/oysterpack-near-stake-token/blob/e7cc614da07a2bd0039528edfc9fe21216afcdc9/contract/src/test_utils.rs)
